@@ -1,0 +1,52 @@
+└── ppl_bag_20240701_201916
+    ├── events.xlsx
+    ├── interfaces
+    ├── metadata.yaml
+    ├── meta.json
+    ├── meta.json.bak
+    ├── ppl_bag_20240701_201916_0.mcap
+    ├── ppl_bag_20240701_201916_10.mcap
+    ├── ppl_bag_20240701_201916_11.mcap
+    ├── ppl_bag_20240701_201916_12.mcap
+    ├── ppl_bag_20240701_201916_13.mcap
+    ├── ppl_bag_20240701_201916_14.mcap
+    ├── ppl_bag_20240701_201916_15.mcap
+    ├── ppl_bag_20240701_201916_16.mcap
+    ├── ppl_bag_20240701_201916_17.mcap
+    ├── ppl_bag_20240701_201916_18.mcap
+    ├── ppl_bag_20240701_201916_19.mcap
+    ├── ppl_bag_20240701_201916_1.mcap
+    ├── ppl_bag_20240701_201916_20.mcap
+    ├── ppl_bag_20240701_201916_21.mcap
+    ├── ppl_bag_20240701_201916_22.mcap
+    ├── ppl_bag_20240701_201916_23.mcap
+    ├── ppl_bag_20240701_201916_24.mcap
+    ├── ppl_bag_20240701_201916_2.mcap
+    ├── ppl_bag_20240701_201916_3.mcap
+    ├── ppl_bag_20240701_201916_4.mcap
+    ├── ppl_bag_20240701_201916_5.mcap
+    ├── ppl_bag_20240701_201916_6.mcap
+    ├── ppl_bag_20240701_201916_7.mcap
+    ├── ppl_bag_20240701_201916_8.mcap
+    ├── ppl_bag_20240701_201916_9.mcap
+    └── record.json
+
+mkdir ppl_bag_20240701_201916_9.mcap  && \
+mkdir ppl_bag_20240701_201916_10.mcap  && \
+mkdir ppl_bag_20240701_201916_11.mcap  && \
+mkdir ppl_bag_20240701_201916_12.mcap  && \
+mkdir ppl_bag_20240701_201916_13.mcap  && \
+mkdir ppl_bag_20240701_201916_14.mcap  && \
+mkdir ppl_bag_20240701_201916_15.mcap  && \
+mkdir ppl_bag_20240701_201916_16.mcap  && \
+mkdir ppl_bag_20240701_201916_17.mcap  && \
+mkdir ppl_bag_20240701_201916_18.mcap  && \
+mkdir ppl_bag_20240701_201916_19.mcap
+
+sshpass -p "123" scp zhangchi@server-sh:/media/zhangchi/0028/602_test/ppl_bag_20240701_201916/ppl_bag_20240701_201916_13.mcap ./ppl_bag_20240701_201916_13.mcap && \
+sshpass -p "123" scp zhangchi@server-sh:/media/zhangchi/0028/602_test/ppl_bag_20240701_201916/ppl_bag_20240701_201916_14.mcap ./ppl_bag_20240701_201916_14.mcap && \
+sshpass -p "123" scp zhangchi@server-sh:/media/zhangchi/0028/602_test/ppl_bag_20240701_201916/ppl_bag_20240701_201916_15.mcap ./ppl_bag_20240701_201916_15.mcap && \
+sshpass -p "123" scp zhangchi@server-sh:/media/zhangchi/0028/602_test/ppl_bag_20240701_201916/ppl_bag_20240701_201916_16.mcap ./ppl_bag_20240701_201916_16.mcap && \
+sshpass -p "123" scp zhangchi@server-sh:/media/zhangchi/0028/602_test/ppl_bag_20240701_201916/ppl_bag_20240701_201916_17.mcap ./ppl_bag_20240701_201916_17.mcap && \
+sshpass -p "123" scp zhangchi@server-sh:/media/zhangchi/0028/602_test/ppl_bag_20240701_201916/ppl_bag_20240701_201916_18.mcap ./ppl_bag_20240701_201916_18.mcap && \
+sshpass -p "123" scp zhangchi@server-sh:/media/zhangchi/0028/602_test/ppl_bag_20240701_201916/ppl_bag_20240701_201916_19.mcap ./ppl_bag_20240701_201916_19.mcap
